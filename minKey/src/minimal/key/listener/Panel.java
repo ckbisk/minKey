@@ -1,4 +1,4 @@
-package minKey;
+package minimal.key.listener;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -8,7 +8,7 @@ import javax.swing.JPanel;
 
 public class Panel extends JPanel {
 
-	public Panel() {
+	Panel() {
 		setFocusable(true);
 		addKeyListener(new KeyListener() {
 

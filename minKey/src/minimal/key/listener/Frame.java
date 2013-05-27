@@ -1,12 +1,13 @@
-package minKey;
+package minimal.key.listener;
 
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
+
 public class Frame extends JFrame {
 
 	public static void main(String[] args) {
-		// Use the event dispatch thread to build the UI for thread-safety.
+		// Use the event dispatch thread to build the UI since its the one that runs it.
 		SwingUtilities.invokeLater(new Runnable() {
 			@Override
 			public void run() {
